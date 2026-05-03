@@ -1,0 +1,48 @@
+/* Full page background */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+    /* Gradient background */
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+
+    /* Smooth look */
+    color: #333;
+}
+
+/* Main heading */
+h1 {
+    color: #2c3e50;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Sub heading */
+h2 {
+    color: #3498db;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+/* Smaller heading */
+h3 {
+    color: #27ae60;
+    font-size: 24px;
+}
+
+/* Add card style container (optional future use) */
+.container {
+    background: white;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Hover effect for fun */
+h1:hover {
+    color: #e74c3c;
+    transition: 0.3s;
+}
